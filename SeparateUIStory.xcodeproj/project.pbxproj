@@ -25,11 +25,6 @@
 		7BD9D8871C5719E9003EEAA2 /* CYLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD9D8831C5719E9003EEAA2 /* CYLTabBar.m */; };
 		7BD9D8881C5719E9003EEAA2 /* CYLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD9D8851C5719E9003EEAA2 /* CYLTabBarController.m */; };
 		7BD9D88B1C5722C9003EEAA2 /* SPRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD9D88A1C5722C9003EEAA2 /* SPRootViewController.m */; };
-		7BD9D8A51C573515003EEAA2 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 7BD9D89C1C573515003EEAA2 /* LICENSE */; };
-		7BD9D8A61C573515003EEAA2 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 7BD9D89D1C573515003EEAA2 /* README.md */; };
-		7BD9D8A71C573515003EEAA2 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD9D8A01C573515003EEAA2 /* RECommonFunctions.m */; };
-		7BD9D8A81C573515003EEAA2 /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD9D8A21C573515003EEAA2 /* RESideMenu.m */; };
-		7BD9D8A91C573515003EEAA2 /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD9D8A41C573515003EEAA2 /* UIViewController+RESideMenu.m */; };
 		7BD9D8AB1C585D77003EEAA2 /* libRESideMenu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD9D8AA1C585D77003EEAA2 /* libRESideMenu.a */; settings = {ATTRIBUTES = (Required, ); }; };
 		7BD9D8B11C586040003EEAA2 /* HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD9D8B01C586040003EEAA2 /* HomeTableViewController.m */; };
 		7BD9E12E1C586428003EEAA2 /* CYLPlusButtonSubclass.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD9DF101C586428003EEAA2 /* CYLPlusButtonSubclass.m */; };
@@ -83,14 +78,6 @@
 		7BD9D8851C5719E9003EEAA2 /* CYLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLTabBarController.m; sourceTree = "<group>"; };
 		7BD9D8891C5722C9003EEAA2 /* SPRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPRootViewController.h; sourceTree = "<group>"; };
 		7BD9D88A1C5722C9003EEAA2 /* SPRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPRootViewController.m; sourceTree = "<group>"; };
-		7BD9D89C1C573515003EEAA2 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		7BD9D89D1C573515003EEAA2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		7BD9D89F1C573515003EEAA2 /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
-		7BD9D8A01C573515003EEAA2 /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
-		7BD9D8A11C573515003EEAA2 /* RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESideMenu.h; sourceTree = "<group>"; };
-		7BD9D8A21C573515003EEAA2 /* RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenu.m; sourceTree = "<group>"; };
-		7BD9D8A31C573515003EEAA2 /* UIViewController+RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RESideMenu.h"; sourceTree = "<group>"; };
-		7BD9D8A41C573515003EEAA2 /* UIViewController+RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RESideMenu.m"; sourceTree = "<group>"; };
 		7BD9D8AA1C585D77003EEAA2 /* libRESideMenu.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libRESideMenu.a; path = "Pods/../build/Debug-iphoneos/libRESideMenu.a"; sourceTree = "<group>"; };
 		7BD9D8AF1C586040003EEAA2 /* HomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeTableViewController.h; path = ../HomeTableViewController.h; sourceTree = "<group>"; };
 		7BD9D8B01C586040003EEAA2 /* HomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeTableViewController.m; path = ../HomeTableViewController.m; sourceTree = "<group>"; };
@@ -165,7 +152,6 @@
 			isa = PBXGroup;
 			children = (
 				7BD9E1771C586BB0003EEAA2 /* TumblrMenu */,
-				7BD9D89B1C573515003EEAA2 /* RESideMenu */,
 				7BD9D87F1C5719E9003EEAA2 /* CYLTabBarController */,
 				7B2DCD551C57122C00260CD3 /* AppDelegate.h */,
 				7B2DCD561C57122C00260CD3 /* AppDelegate.m */,
@@ -228,29 +214,6 @@
 				7BD9D88A1C5722C9003EEAA2 /* SPRootViewController.m */,
 			);
 			path = CYLTabBarController;
-			sourceTree = "<group>";
-		};
-		7BD9D89B1C573515003EEAA2 /* RESideMenu */ = {
-			isa = PBXGroup;
-			children = (
-				7BD9D89C1C573515003EEAA2 /* LICENSE */,
-				7BD9D89D1C573515003EEAA2 /* README.md */,
-				7BD9D89E1C573515003EEAA2 /* RESideMenu */,
-			);
-			path = RESideMenu;
-			sourceTree = "<group>";
-		};
-		7BD9D89E1C573515003EEAA2 /* RESideMenu */ = {
-			isa = PBXGroup;
-			children = (
-				7BD9D89F1C573515003EEAA2 /* RECommonFunctions.h */,
-				7BD9D8A01C573515003EEAA2 /* RECommonFunctions.m */,
-				7BD9D8A11C573515003EEAA2 /* RESideMenu.h */,
-				7BD9D8A21C573515003EEAA2 /* RESideMenu.m */,
-				7BD9D8A31C573515003EEAA2 /* UIViewController+RESideMenu.h */,
-				7BD9D8A41C573515003EEAA2 /* UIViewController+RESideMenu.m */,
-			);
-			path = RESideMenu;
 			sourceTree = "<group>";
 		};
 		7BD9E1771C586BB0003EEAA2 /* TumblrMenu */ = {
@@ -384,7 +347,6 @@
 				7B2DCD5F1C57122C00260CD3 /* Assets.xcassets in Resources */,
 				7B2DCD8A1C5712E000260CD3 /* Pay.storyboard in Resources */,
 				7B2DCD5D1C57122C00260CD3 /* Main.storyboard in Resources */,
-				7BD9D8A51C573515003EEAA2 /* LICENSE in Resources */,
 				7B2DCD861C57127700260CD3 /* Home.storyboard in Resources */,
 				7B2DCD8C1C57130200260CD3 /* My.storyboard in Resources */,
 			);
@@ -460,7 +422,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B2DCD5A1C57122C00260CD3 /* ViewController.m in Sources */,
-				7BD9D8A71C573515003EEAA2 /* RECommonFunctions.m in Sources */,
 				7B2DCD571C57122C00260CD3 /* AppDelegate.m in Sources */,
 				7BD9D8881C5719E9003EEAA2 /* CYLTabBarController.m in Sources */,
 				7BD9D8B11C586040003EEAA2 /* HomeTableViewController.m in Sources */,
@@ -468,10 +429,7 @@
 				7BD9E17A1C586BB0003EEAA2 /* CHTumblrMenuView.m in Sources */,
 				7BD9D88B1C5722C9003EEAA2 /* SPRootViewController.m in Sources */,
 				7BD9D8871C5719E9003EEAA2 /* CYLTabBar.m in Sources */,
-				7BD9D8A61C573515003EEAA2 /* README.md in Sources */,
-				7BD9D8A81C573515003EEAA2 /* RESideMenu.m in Sources */,
 				7B2DCD541C57122C00260CD3 /* main.m in Sources */,
-				7BD9D8A91C573515003EEAA2 /* UIViewController+RESideMenu.m in Sources */,
 				7BD9E12E1C586428003EEAA2 /* CYLPlusButtonSubclass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -619,15 +577,7 @@
 				);
 				INFOPLIST_FILE = SeparateUIStory/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/build/Debug-iphoneos",
-					"$(PROJECT_DIR)/SeparateUIStory/CYLTabBarController/UCanCounselor_iOS开发版/Pods/OpenSSL-Universal/lib-ios",
-					"$(PROJECT_DIR)/SeparateUIStory/CYLTabBarController/UCanCounselor_iOS开发版/ucano2ocounselor/ThirdParty/UMSocial_Sdk_4.3",
-					"$(PROJECT_DIR)/SeparateUIStory/CYLTabBarController/UCanCounselor_iOS开发版/ucano2ocounselor/ThirdParty/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
-					"$(PROJECT_DIR)/SeparateUIStory/CYLTabBarController/UCanCounselor_iOS开发版/ucano2ocounselor/ThirdParty/UMSocial_Sdk_Extra_Frameworks/Wechat",
-					"$(PROJECT_DIR)/SeparateUIStory/CYLTabBarController/UCanCounselor_iOS开发版/ucano2ocounselor/Utility/VoiceConvert/opencore-amrnb",
-					"$(PROJECT_DIR)/SeparateUIStory/CYLTabBarController/UCanCounselor_iOS开发版/ucano2ocounselor/Utility/VoiceConvert/opencore-amrwb",
-				);
+				LIBRARY_SEARCH_PATHS = "";
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = cn.xdf.pophome.SeparateUIStory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -647,15 +597,7 @@
 				);
 				INFOPLIST_FILE = SeparateUIStory/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/build/Debug-iphoneos",
-					"$(PROJECT_DIR)/SeparateUIStory/CYLTabBarController/UCanCounselor_iOS开发版/Pods/OpenSSL-Universal/lib-ios",
-					"$(PROJECT_DIR)/SeparateUIStory/CYLTabBarController/UCanCounselor_iOS开发版/ucano2ocounselor/ThirdParty/UMSocial_Sdk_4.3",
-					"$(PROJECT_DIR)/SeparateUIStory/CYLTabBarController/UCanCounselor_iOS开发版/ucano2ocounselor/ThirdParty/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
-					"$(PROJECT_DIR)/SeparateUIStory/CYLTabBarController/UCanCounselor_iOS开发版/ucano2ocounselor/ThirdParty/UMSocial_Sdk_Extra_Frameworks/Wechat",
-					"$(PROJECT_DIR)/SeparateUIStory/CYLTabBarController/UCanCounselor_iOS开发版/ucano2ocounselor/Utility/VoiceConvert/opencore-amrnb",
-					"$(PROJECT_DIR)/SeparateUIStory/CYLTabBarController/UCanCounselor_iOS开发版/ucano2ocounselor/Utility/VoiceConvert/opencore-amrwb",
-				);
+				LIBRARY_SEARCH_PATHS = "";
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = cn.xdf.pophome.SeparateUIStory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
